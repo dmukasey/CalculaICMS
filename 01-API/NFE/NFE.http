@@ -1,0 +1,6 @@
+@NFE_HostAddress = http://localhost:5181
+
+GET {{NFE_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

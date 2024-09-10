@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\03-Domain\Contracts\ICMS.Contracts.csproj" />
+    <ProjectReference Include="..\..\03-Domain\Domain\ICMS.Domain.csproj" />
+    <ProjectReference Include="..\..\04-Data\MongoDB\ICMS.MongoDB\ICMS.MongoDBHelper.csproj" />
+    <ProjectReference Include="..\..\ICMS.RabbitMQ\ICMS.RabbitMQ.csproj" />
+  </ItemGroup>
+
+</Project>

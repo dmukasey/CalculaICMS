@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "ICMS.Workers.NFE": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7117",
+      "launchBrowser": false
+    }
+  }
+}

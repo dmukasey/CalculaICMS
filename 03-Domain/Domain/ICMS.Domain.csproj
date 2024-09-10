@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="NFSE\Commands\" />
+    <Folder Include="NFSE\Handlers\" />
+    <Folder Include="NFSE\Validations\" />
+    <Folder Include="NFE\Commands\" />
+    <Folder Include="NFE\Handlers\" />
+    <Folder Include="NFE\Validations\" />
+  </ItemGroup>
+
+</Project>
