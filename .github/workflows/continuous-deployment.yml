@@ -26,11 +26,11 @@ jobs:
     
     - name: Restore Dependencies
       run: dotnet restore CalculaICMS.sln
-      working-directory: CalculaICMS
+      working-directory: .
     
     - name: Build ASP.NET 8 App
       run: dotnet build CalculaICMS.sln --configuration Release --no-restore
-      working-directory: CalculaICMS
+      working-directory: .
     
     # - name: Test ASP.NET 10 App
     #   run: dotnet test RestWithASPNET10Erudio.sln --configuration Release --no-build --logger "console;verbosity=detailed"  
