@@ -1,0 +1,41 @@
+{
+  "info": {
+    "_postman_id": "03144919-f467-43cb-a6fd-4c4ae527eccb",
+    "name": "CalculaICMS",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "15581199"
+  },
+  "item": [
+    {
+      "name": "UploadNFE",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "file",
+              "type": "file",
+              "uuid": "81dfa1a1-9a1a-430a-b0bd-d40ba5829bd9",
+              "src": "/C:/Users/David/source/repos/CalculaICMS/Docs/NotaFone.xml"
+            }
+          ]
+        },
+        "url": {
+          "raw": "http://localhost/NFE/UploadNFE",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "path": [
+            "NFE",
+            "UploadNFE"
+          ]
+        },
+        "description": "## API Endpoint: Add NFE\n\n### Purpose\n\nThis endpoint allows users to submit a new NFE (Nota Fiscal Eletrônica) record. It is designed to accept detailed information about the NFE and process it accordingly.\n\n### Request Format\n\n- **Method**: POST\n    \n- **URL**: `http://localhost/NFE`\n    \n- **Headers**:\n    \n    - `Content-Type`: Must be set to `application/x-www-form-urlencoded` to indicate the format of the request body.\n        \n\n### Request Body\n\nThe request body should be formatted as `application/x-www-form-urlencoded` and must include the following parameters:\n\n- **parameter1** (text): Description of parameter1.\n    \n- **parameter2** (text): Description of parameter2.\n    \n- **parameter3** (file): Description of parameter3.\n    \n\nEach parameter should be included as a key-value pair in the request body.\n\n### Expected Response Format\n\nUpon successful submission, the response will typically include:\n\n- A status code indicating the success or failure of the operation.\n    \n- A message providing additional context about the result of the request.\n    \n\nMake sure to handle any error responses appropriately, as they may include specific error codes and messages."
+      },
+      "response": []
+    }
+  ]
+}
