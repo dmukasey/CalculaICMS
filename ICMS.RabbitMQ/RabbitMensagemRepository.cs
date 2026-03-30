@@ -13,8 +13,8 @@ namespace ICMS.RabbitMQ
             var factory = new ConnectionFactory()
             {
                 HostName = "localhost",
-                UserName = "admin",
-                Password = "123456"
+                UserName = "guest",
+                Password = "guest"
             };
             using (var connection = factory.CreateConnection())
             using (var channel = connection.CreateModel())
@@ -40,8 +40,8 @@ namespace ICMS.RabbitMQ
             var factory = new ConnectionFactory()
             {
                 HostName = "localhost",
-                UserName = "admin",
-                Password = "123456"
+                UserName = "guest",
+                Password = "guest"
             };
             using (var connection = factory.CreateConnection())
             using (var channel = connection.CreateModel())
