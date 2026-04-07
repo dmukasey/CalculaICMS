@@ -41,7 +41,7 @@ namespace ICMS.RabbitMQ
             {
                 HostName = "localhost",
                 UserName = "admin",
-                Password = "tatyda"
+                Password = "123456"
             };
             using (var connection = factory.CreateConnection())
             using (var channel = connection.CreateModel())
